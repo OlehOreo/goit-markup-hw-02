@@ -1,0 +1,159 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --accent-color: #4d5ae5;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  color: #434455;
+  background-color: #ffffff;
+}
+.list {
+  list-style: none;
+}
+/* потім забарти текст соц.мереж і стилі .link a */
+.link,
+.link a {
+  text-decoration: none;
+}
+/*==========COMPONENTS========== */
+.text-content {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+/* headings */
+.desc-headings {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+/* headings */
+
+/* SOCIALS Потім видалити */
+.socials {
+  color: currentColor;
+}
+/* SOCIALS /Потім видалити */
+
+/*==========/COMPONENTS========== */
+
+/*==========MENU ========== */
+/*==========Logo========== */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.logo-text {
+  color: #4d5ae5;
+}
+/*==========/Logo========== */
+
+/*==========MENU LINK========== */
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+/*==========/MENU LINK========== */
+
+/*==========ADDRESS========== */
+.address-contacts {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: currentColor;
+}
+.address-contacts:hover,
+.address-contacts:focus {
+  color: var(--accent-color);
+}
+
+/*==========/ADDRESS========== */
+
+/*==========HERO========== */
+.modal-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+
+  background: #4d5ae5;
+
+  cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background: #404bbf;
+}
+/* !!!!ПОВЕРНУТИ ЗАКОМЕНТОВАНИЙ БІЛИЙ КОЛІР ТЕКСТУ!!!!!! */
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  /* color: #ffffff; */
+}
+/*==========/HERO========== */
+
+/*==========WHAT ARE WE DOING  OUR TEAM========== */
+
+/*==========/WHAT ARE WE DOING OUR TEAM========== */
+
+/*==========BUTTOMS FILTER PORTFOLIO========== */
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #4d5ae5;
+  background: #f4f4fd;
+}
+.filter-btn:active {
+  color: #ffffff;
+  background: #404bbf;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: #ffffff;
+  background: var(--accent-color);
+}
+/*==========/BUTTOMS FILTER========== */
+
+/*==========FOOTER========== */
+/* .copyright {
+  color: #f4f4fd;
+} */
