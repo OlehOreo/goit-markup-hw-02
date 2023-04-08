@@ -24,6 +24,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 .subtitle {
   font-weight: inherit;
@@ -84,9 +85,11 @@ body {
 /*==========/MENU LINK========== */
 
 /*==========ADDRESS========== */
+.address {
+  font-style: normal;
+}
 .address-contacts {
   font-weight: 400;
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -105,7 +108,8 @@ body {
 background-color: #2E2F42;}
 
 .modal-btn {
-  font-weight: inherit;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   display: flex;
@@ -143,8 +147,8 @@ background:  #FFFFFF;}
 /*==========/OUR TEAM========== */
 
 /*==========BUTTOMS FILTER PORTFOLIO========== */
-.filter-btn {
-  font-family: 'Roboto';
+.filter .filter-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
