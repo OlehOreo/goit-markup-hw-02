@@ -1,11 +1,12 @@
 :root {
   --primary-font: "Roboto", sans-serif;
-  --accent-color: #4d5ae5;
+  --accent-color: #404BBF;
+  --accent-text: #FFFFFF;
 }
 
 body {
   font-family: var(--primary-font);
-  font-weight: 400;
+  font-weight: 500;
   color: #434455;
   background-color: #ffffff;
 }
@@ -19,12 +20,13 @@ body {
 }
 /*==========COMPONENTS========== */
 .text-content {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .subtitle {
-  font-weight: 500;
+  font-weight: inherit;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -35,6 +37,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
@@ -60,16 +63,15 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .logo-text {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 /*==========/Logo========== */
 
 /*==========MENU LINK========== */
 .menu-link {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -83,6 +85,7 @@ body {
 
 /*==========ADDRESS========== */
 .address-contacts {
+  font-weight: 400;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
@@ -97,15 +100,19 @@ body {
 /*==========/ADDRESS========== */
 
 /*==========HERO========== */
+
+.hero {
+background-color: #2E2F42;}
+
 .modal-btn {
-  font-weight: 500;
+  font-weight: inherit;
   font-size: 16px;
   line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
 
-  color: #ffffff;
+  color: var(--accent-text);
 
   background: #4d5ae5;
 
@@ -113,24 +120,31 @@ body {
 }
 .modal-btn:hover,
 .modal-btn:focus {
-  background: #404bbf;
+  background: var(--accent-color);
 }
-/* !!!!ПОВЕРНУТИ ЗАКОМЕНТОВАНИЙ БІЛИЙ КОЛІР ТЕКСТУ!!!!!! */
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
+
 /*==========/HERO========== */
 
-/*==========WHAT ARE WE DOING  OUR TEAM========== */
+/*==========  OUR TEAM========== */
+.desc {
+background-color: #F4F4FD;}
 
-/*==========/WHAT ARE WE DOING OUR TEAM========== */
+.desc-item  {
+background:  #FFFFFF;}
+/*==========/OUR TEAM========== */
 
 /*==========BUTTOMS FILTER PORTFOLIO========== */
 .filter-btn {
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -138,22 +152,29 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
 
   color: #4d5ae5;
   background: #f4f4fd;
 }
 .filter-btn:active {
-  color: #ffffff;
-  background: #404bbf;
+  color: var(--accent-text);
+  background: var(--accent-color);
 }
 .filter-btn:hover,
 .filter-btn:focus {
-  color: #ffffff;
+  color: var(--accent-text);
   background: var(--accent-color);
 }
 /*==========/BUTTOMS FILTER========== */
 
 /*==========FOOTER========== */
-/* .copyright {
+.footer {
+background-color: #2E2F42;}
+
+.logo-footer {
+color: #F4F4FD;}
+
+.copyright {
   color: #f4f4fd;
-} */
+}
