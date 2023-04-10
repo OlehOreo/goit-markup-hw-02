@@ -1,7 +1,7 @@
 :root {
   --primary-font: "Roboto", sans-serif;
-  --accent-color: #404BBF;
-  --accent-text: #FFFFFF;
+  --accent-color: #404bbf;
+  --accent-text: #ffffff;
 }
 
 body {
@@ -44,12 +44,6 @@ body {
   color: #2e2f42;
 }
 /* headings */
-
-/* SOCIALS Потім видалити */
-.socials {
-  color: currentColor;
-}
-/* SOCIALS /Потім видалити */
 
 /*==========/COMPONENTS========== */
 
@@ -105,10 +99,11 @@ body {
 /*==========HERO========== */
 
 .hero {
-background-color: #2E2F42;}
+  background-color: #2e2f42;
+}
 
 .modal-btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -140,15 +135,17 @@ background-color: #2E2F42;}
 
 /*==========  OUR TEAM========== */
 .desc {
-background-color: #F4F4FD;}
+  background-color: #f4f4fd;
+}
 
-.desc-item  {
-background:  #FFFFFF;}
+.desc-item {
+  background: #ffffff;
+}
 /*==========/OUR TEAM========== */
 
 /*==========BUTTOMS FILTER PORTFOLIO========== */
 .filter .filter-btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -174,10 +171,12 @@ background:  #FFFFFF;}
 
 /*==========FOOTER========== */
 .footer {
-background-color: #2E2F42;}
+  background-color: #2e2f42;
+}
 
 .logo-footer {
-color: #F4F4FD;}
+  color: #f4f4fd;
+}
 
 .copyright {
   color: #f4f4fd;
